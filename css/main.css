@@ -1,0 +1,11 @@
+.nav-item {
+  cursor: pointer;
+}
+
+.nav-item.active div {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  background-color: #333;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */

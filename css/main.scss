@@ -1,0 +1,10 @@
+.nav-item{
+    cursor:pointer;
+    &.active{
+        div{
+            transition: all 1s ease;
+            background-color:#333;
+            color:white;
+        }
+    }
+}
